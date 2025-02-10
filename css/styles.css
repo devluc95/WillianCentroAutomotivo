@@ -1,0 +1,41 @@
+body {
+    background-color: #f8 ```css f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    text-align: center;
+    margin-top: 80px;
+    /* Adjust for fixed header */
+}
+
+.hero {
+    background: url('your-hero-image.jpg') no-repeat center center;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfolio {
+    padding: 2rem 0;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 5rem;
+}
