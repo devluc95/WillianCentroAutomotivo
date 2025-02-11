@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="js/script.js">
 </head>
 
 <body id="page-top">
 
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="img/logo.png" alt="Logo" />
+            </a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary" type="button"
                 data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -24,66 +26,72 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#portfolio">Portfolio</a>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#page-top">Início</a>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#about">About</a>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Serviços</a>
                     </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#contact ">Contact</a>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contato</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Header -->
     <header class="masthead">
         <div class="container">
-            <div class="masthead-subheading">Welcome To My Portfolio!</div>
-            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Tell Me More</a>
+            <div class="masthead-subheading">Bem-vindo ao Nosso site!</div>
+            <div class="masthead-heading text-uppercase">Venha conhecer nosso trabalho</div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Saiba Mais</a>
         </div>
     </header>
 
+    <!-- Portfólio -->
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Serviços</h2>
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">View Project</div>
+                            <div class="portfolio-item-caption-content text-center text-white">Ver Projeto</div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="Project 1">
+                        <img class="img-fluid" src="img/freio.webp" alt="Projeto 1">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">View Project</div>
+                            <div class="portfolio-item-caption-content text-center text-white">Ver Projeto</div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="Project 2">
+                        <img class="img-fluid" src="img/manutencao_preventiva.jpg" alt="Projeto 2">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">View Project</div>
+                            <div class="portfolio-item-caption-content text-center text-white">Ver Projeto</div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="Project 3">
+                        <img class="img-fluid" src="img/injecao.jpg" alt="Projeto 3">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Sobre -->
     <section class="page-section" id="about">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">About</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Sobre</h2>
             <div class="row">
                 <div class="col-lg-4 ml-auto">
                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, voluptatibus.</p>
@@ -95,36 +103,67 @@
         </div>
     </section>
 
+    <!-- Contato -->
     <section class="page-section" id="contact">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contato</h2>
             <form>
                 <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
                 </div>
                 <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    <label for="email">Endereço de Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email">
                 </div>
                 <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                    <label for="message">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Sua mensagem"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
     </section>
 
+    <!-- Rodapé -->
     <footer class="footer text-center">
         <div class="container">
-            <p class="text-muted small mb-0">&copy; 2023 Your Name. All Rights Reserved.</p>
+            <p class="text-muted small mb-0">&copy; 2023 Willian Centro Automotivo. Todos os direitos reservados.</p>
         </div>
     </footer>
 
+    <!-- Modais do Portfólio -->
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">Projeto 1</h2>
+                                <img class="img-fluid" src="img/portfolio/01-full.jpg" alt="Projeto 1">
+                                <p>Detalhes sobre o Projeto 1.</p>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times"></i> Fechar Projeto
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Repita para Modal 2 e Modal 3 -->
+
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

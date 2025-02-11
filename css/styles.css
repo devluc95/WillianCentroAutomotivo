@@ -1,41 +1,54 @@
 body {
-    background-color: #f8 ```css f9fa;
+    background-color: #f8f9fa;
     font-family: 'Arial', sans-serif;
 }
 
-.header {
-    background-color: #343a40;
+.navbar-brand img {
+    height: 100px;
+    /* Ajuste a altura conforme necessário */
+    width: auto;
+    /* Mantém a proporção */
+}
+
+header.masthead {
+    padding-top: 400px;
+    /* Ajuste para a navbar fixa */
+    padding-bottom: 130px;
+    background: url('../img/fundo.jpg') no-repeat center center;
+    background-size: cover;
     color: #fff;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    width: 70%;
+    height: auto;
+}
+
+.portfolio-item-caption {
+    position: absolute;
     top: 0;
-    z-index: 1000;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
-.container {
-    text-align: center;
-    margin-top: 80px;
-    /* Adjust for fixed header */
-}
-
-.hero {
-    background: url('your-hero-image.jpg') no-repeat center center;
-    height: 400px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.portfolio {
-    padding: 2rem 0;
+.portfolio-item:hover .portfolio-item-caption {
+    opacity: 1;
 }
 
 .footer {
     background-color: #343a40;
     color: #fff;
     padding: 1rem 0;
-    margin-top: 5rem;
+    margin-top: 2rem;
+    text-align: center;
 }
